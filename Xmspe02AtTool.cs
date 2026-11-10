@@ -36,7 +36,7 @@ namespace Xmspe02AtTool
 
         public MainForm()
         {
-            Text = "喜马拉雅XMSPE02短信猫调试工具";
+            Text = "喜马拉雅 XMSPE02 短信调试工具";
             // 窗口/任务栏图标：读取 exe 内嵌的 ico 资源
             try { Icon = Icon.ExtractAssociatedIcon(Application.ExecutablePath); } catch { }
             // 内容高度 = 连接64 + 信息192 + 短信110 + 日志按钮30 + 余量8，窗口刚好收满无大片空白
