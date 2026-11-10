@@ -38,15 +38,6 @@ dotnet build -c Release
 
 需要安装 [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)。
 
-## Python 版
-
-`xmspe02_at_tool.py` 为早期 tkinter + pyserial 实现的单文件版本，功能一致（无短信发送），依赖：
-
-```bash
-pip install pyserial
-python xmspe02_at_tool.py
-```
-
 ## 常用 AT 指令参考（该设备实测）
 
 | 指令 | 作用 | 说明 |
